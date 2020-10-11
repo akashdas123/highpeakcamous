@@ -1,2 +1,2 @@
 # highpeakcampus
-program done using pytghon in pycharm
+program done using python in pycharm
