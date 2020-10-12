@@ -8,8 +8,7 @@ import sys;
 # and minimum values of distribution.
 def findMinDiff(goddie_prices, n, m):
  
-    # if there are no chocolates or number
-    # of students is 0
+    
     if (m==0 or n==0):
         return 0
  
@@ -17,12 +16,12 @@ def findMinDiff(goddie_prices, n, m):
     arr=list(goddie_prices.values())
     arr.sort()#sort array
  
-    # Number of students cannot be more than
-    # number of packets
+    
+    
     if (n < m):
         return -1
  
-    # Largest number of chocolates
+    
     min_diff = sys.maxsize
  
     # Find the subarray of size m such that
